@@ -1,4 +1,4 @@
-export const slugify = (tokens:string[]) =>
+export const slugify = (tokens:string[]):string =>
   trimDashes(
     stripDoubleDashes(
       tokens
